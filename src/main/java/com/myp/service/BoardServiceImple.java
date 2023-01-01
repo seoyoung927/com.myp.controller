@@ -9,7 +9,14 @@ import org.springframework.stereotype.Service;
 import com.myp.domain.BoardVO;
 import com.myp.persistence.BoardDAO;
 
-@Service
+
+import java.util.List;
+
+import javax.inject.Inject;
+
+import com.sample.domain.BoardVO;
+import com.sample.persistence.BoardDAO;
+
 public class BoardServiceImple implements BoardService {
 	
 	

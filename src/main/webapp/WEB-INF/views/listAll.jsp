@@ -11,7 +11,7 @@
 </head>
 <body>
 <form action = "regist" method = "get">
-<table border="1" width="880">
+<table border="1">
         <tr>
         <td width="77">
             <p align="center">±Û¹øÈ£</p>

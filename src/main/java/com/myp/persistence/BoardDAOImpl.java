@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
 import com.myp.domain.BoardVO;
 
 @Repository
-public class BoardDAOImpl  implements BoardDAO {
+public class BoardDAOImpl implements BoardDAO {
 
 	@Inject
 	private SqlSession session;
@@ -23,7 +23,7 @@ public class BoardDAOImpl  implements BoardDAO {
 
 	@Override
 	public BoardVO read(Integer bno) throws Exception {
-		return session.selectOne(namespace + ".read", bno);
+		return session.selectOne(namespace+".read", bno);
 	}
 
 
@@ -42,7 +42,7 @@ public class BoardDAOImpl  implements BoardDAO {
 
 	@Override
 	public List<BoardVO> listAll() throws Exception {
-		return session.selectList(namespace + ".listAll");
+		return session.selectList(namespace+".listAll");
 	}
 
 
