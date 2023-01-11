@@ -1,0 +1,7 @@
+server.servlet.encoding.force-response: true
+#spring:
+  #datasource:
+  #  url: jdbc:oracle:thin:@localhost:1521:orcl
+  #  username: SYSTEM
+  #  password: 1234
+  #  driver-class-name: oracle.jdbc.driver.OracleDriver
